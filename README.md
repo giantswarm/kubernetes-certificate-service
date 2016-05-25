@@ -5,6 +5,7 @@
 `kubernetes-certificate-service` generates and provides certificates for TLS encryption.
 
 On start, the service will generate certificates and make them available via HTTP.
+
 These files can be accessed via `/ca.crt`, `/server.crt`, and `/server.key`.
 
 ## Getting `kubernetes-certificate-service`
@@ -15,11 +16,11 @@ Download the latest docker image from here: https://hub.docker.com/r/giantswarm/
 
 ### How to build
 
-- docker build -t giantswarm/kubernetes-certificate-service .
+- `docker build -t giantswarm/kubernetes-certificate-service .`
 
 ## Running `kubernetes-certificate-service`
 
-- docker run -p 8000:80 giantswarm/kubernetes-certificate-service $KUBERNETES_MASTER_ADDRESS
+- `docker run -p 8000:80 giantswarm/kubernetes-certificate-service $KUBERNETES_MASTER_ADDRESS`
 
 Note: You may want to mount `/certs` to durable storage, to avoid losing certificates when the container dies.
 
