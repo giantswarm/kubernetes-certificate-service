@@ -1,6 +1,6 @@
 # kubernetes-certificate-service
 
-[![](https://img.shields.io/docker/pulls/giantswarm/kubernetes-certificate-service.svg)](https://hub.docker.com/r/giantswarm/kubernetes-certificate-service) [![IRC Channel](https://img.shields.io/badge/irc-%23giantswarm-blue.svg)](https://kiwiirc.com/client/irc.freenode.net/#giantswarm)
+[![](https://img.shields.io/docker/pulls/giantswarm/kubernetes-certificate-service.svg)](https://hub.docker.com/r/giantswarm/kubernetes-certificate-service)
 
 `kubernetes-certificate-service` generates and provides certificates for TLS encryption.
 
@@ -45,7 +45,6 @@ Note: You may want to mount `/certs` to durable storage, to avoid losing certifi
 ## Contact
 
 - Mailing list: [giantswarm](https://groups.google.com/forum/!forum/giantswarm)
-- IRC: #[giantswarm](irc://irc.freenode.org:6667/#giantswarm) on freenode.org
 - Bugs: [issues](https://github.com/giantswarm/kubernetes-certificate-service/issues)
 
 ## Contributing & Reporting Bugs
